@@ -1,0 +1,15 @@
+<Application
+    x:Class="AvaloniaMCL.App"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AvaloniaMCL" 
+    xmlns:mcl="clr-namespace:AvaloniaMCL" 
+    xmlns:avaloniaMcl="clr-namespace:AvaloniaMCL">
+    <Application.DataTemplates>
+        <avaloniaMcl:ViewLocator />
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <FluentTheme />
+    </Application.Styles>
+</Application>
